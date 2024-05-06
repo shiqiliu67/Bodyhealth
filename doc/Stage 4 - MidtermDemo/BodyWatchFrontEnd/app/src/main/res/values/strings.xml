@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BodyWatchFrontEnd</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Body Watch</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="body_watch_title">Body Watch</string>
+    <string name="goals">Goals</string>
+    <string name="user_profile">User\'s Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="health">Health</string>
+    <string name="activity">Activity</string>
+    <string name="activity_frag_label">Activities</string>
+    <string name="goals_fragment_label">Goals</string>
+    <string name="health_fragment_label">Health</string>
+    <string name="users_profile_fragment_label">UsersProfile</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="add">ADD</string>
+    <string name="query">AdvancedQuery</string>
+    <string name="query_label">Food Suggestion</string>
+    <string name="logout">Logout</string>
+    <string name="ranking">Ranking</string>
+    <string name="foodSuggestion">Food Suggestion</string>
+    <string name="ranking_label">Lead Board</string>
+</resources>

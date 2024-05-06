@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cs411cmp003.bodywatchfrontend.ui.MainActivity">
+    <item
+        android:id="@+id/userProfile"
+        android:orderInCategory="100"
+        android:title="@string/user_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/goals"
+        android:orderInCategory="100"
+        android:title="@string/goals"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/health"
+        android:orderInCategory="100"
+        android:title="@string/health"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/activity"
+        android:orderInCategory="100"
+        android:title="@string/activity"
+        app:showAsAction="never" />
+
+    <item
+            android:id="@+id/ranking"
+            android:orderInCategory="100"
+            android:title="@string/ranking"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/foodSuggestion"
+            android:orderInCategory="100"
+            android:title="@string/foodSuggestion"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/logout"
+            android:orderInCategory="100"
+            android:title="@string/logout"
+            app:showAsAction="never" />
+
+</menu>

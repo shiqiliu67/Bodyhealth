@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FoodFragment">
+
+    <fragment
+        android:id="@+id/FoodFragment"
+        android:name="com.cs411cmp003.bodywatchfrontend.ui.menuFood.FoodFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_food">
+
+<!--        <action-->
+<!--            android:id="@+id/action_FirstFragment_to_SecondFragment"-->
+<!--            app:destination="@id/FoodDetailFragment" />-->
+    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/FoodDetailFragment"-->
+<!--        android:name="com.cs411cmp003.bodywatchfrontend.ui.FoodDetailFragment"-->
+<!--        android:label="@string/second_fragment_label"-->
+<!--        tools:layout="@layout/fragment_food_detail">-->
+
+<!--        <action-->
+<!--            android:id="@+id/action_SecondFragment_to_FirstFragment"-->
+<!--            app:destination="@id/FoodFragment" />-->
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/ActivitiesFragment"
+        android:name="com.cs411cmp003.bodywatchfrontend.ui.menuActivity.ActivitiesFragment"
+        android:label="@string/activity_frag_label"
+        tools:layout="@layout/fragment_activities">
+    </fragment>
+
+    <fragment
+        android:id="@+id/GoalsFragment"
+        android:name="com.cs411cmp003.bodywatchfrontend.ui.menuGoal.GoalFragment"
+        android:label="@string/goals_fragment_label"
+        tools:layout="@layout/fragment_goal">
+    </fragment>
+
+    <fragment
+        android:id="@+id/HealthFragment"
+        android:name="com.cs411cmp003.bodywatchfrontend.ui.menuHealth.HealthFragment"
+        android:label="@string/health_fragment_label"
+        tools:layout="@layout/fragment_health">
+    </fragment>
+
+    <fragment
+        android:id="@+id/UsersFragment"
+        android:name="com.cs411cmp003.bodywatchfrontend.ui.menuUserInfo.UsersProfileFragment"
+        android:label="@string/users_profile_fragment_label"
+        tools:layout="@layout/fragment_users_profile">
+    </fragment>
+    <fragment
+        android:id="@+id/QueryFragment"
+        android:name="com.cs411cmp003.bodywatchfrontend.ui.menuQuery.AdvancedQueryFragment"
+        android:label="@string/query_label"
+        tools:layout="@layout/fragment_users_profile">
+    </fragment>
+    <fragment
+            android:id="@+id/RankingFragment"
+            android:name="com.cs411cmp003.bodywatchfrontend.ui.menuQuery.RankingFragment"
+            android:label="@string/ranking_label"
+            tools:layout="@layout/fragment_users_profile">
+    </fragment>
+
+</navigation>
